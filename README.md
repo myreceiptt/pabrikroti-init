@@ -1,4 +1,14 @@
-PABRIK ROTI v.0.1.0.1: Init by Prof. NOTA Inc.!
+# PABRIK ROTI [![version](https://img.shields.io/badge/version-0.1.0.1-blue)](https://github.com/myreceiptt/pabrikroti-init/releases/tag/v.0.1.0.1)
+
+> "This is not just a factory. This is a rehearsal of freedom—kneaded with code, fermented by its community, and baked through the heat of shared struggles."
+>
+> — Prof. NOTA
+
+---
+
+## PABRIK ROTI v.0.1.0.1: Init by Prof. NOTA Inc.!
+
+🧬 Forked from [PABRIKROTI-MASTER](https://github.com/myreceiptt/pabrikroti-master/tree/init)
 
 ## 📜 License
 
