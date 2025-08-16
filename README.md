@@ -8,7 +8,7 @@
 
 ## PABRIK ROTI v.0.1.0.1: Init by Prof. NOTA Inc.!
 
-🧬 Forked from [PABRIKROTI-MASTER](https://github.com/myreceiptt/pabrikroti-master/tree/init)
+🧬 Forked from [PABRIKROTI-MASTER](https://github.com/myreceiptt/pabrikroti-master/releases/tag/v.0.1.0-init)
 
 ## 📜 License
 
