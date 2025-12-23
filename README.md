@@ -75,7 +75,7 @@ Examples:
 
 ---
 
-## PABRIK ROTI v.0.1.0.1: Init by Prof. NOTA Inc.!
+## PABRIK ROTI v.0.1.0.1: Init by Prof. NOTA Inc
 
 🧬 Forked from [PABRIKROTI-MASTER](https://github.com/myreceiptt/pabrikroti-master/releases/tag/v.0.1.0-init)
 
@@ -148,6 +148,6 @@ yarn start
 - Yarn is **4.x**; use `yarn up -i` for update review and `yarn npm audit --severity moderate` for security checks.
 - Live parity check (ambyar.endhonesa.com): **All green** — no critical console errors, UX unchanged.
 
-## Join Prof. NOTA Discord!
+## Join Prof. NOTA Discord
 
 For any questions or suggestions, join Prof. NOTA discord at [https://discord.gg/5KrsT6MbFm](https://discord.gg/5KrsT6MbFm).
