@@ -6,6 +6,75 @@
 
 ---
 
+---
+
+## Maintenance by Prof. NOTA Evergreen Standard
+
+This repo is intended to stay evergreen while remaining production-safe.
+
+### Runtime
+
+- Node: **24.x** (see `package.json#engines`)
+
+  - ~~example alternatives: 22.x / 20.x (adjust if platform requires)~~
+
+- Package manager:
+
+  - **Yarn** (lockfile: `yarn.lock`)
+  - ~~PNPM (lockfile: `pnpm-lock.yaml`)~~
+  - ~~NPM (lockfile: `package-lock.json`)~~
+
+- Deploy target:
+
+  - **Vercel**
+  - ~~Netlify~~
+  - ~~Self-hosted / Docker~~
+  - ~~Other platform (document explicitly)~~
+
+### Monthly Safe Updates (recommended)
+
+1. Check what's outdated:
+
+   - `yarn up -i`
+   - ~~pnpm outdated~~
+   - ~~npm outdated~~
+
+2. Upgrade safe (patch/minor) versions:
+
+   - `yarn up -R`
+   - ~~pnpm update~~
+   - ~~npm update~~
+   - or upgrade specific packages shown as non-major
+
+3. Verify:
+
+   - `yarn npm audit --severity moderate`
+   - ~~pnpm audit~~
+   - ~~npm audit~~
+   - `yarn build`
+   - ~~pnpm build~~
+   - ~~npm run build~~
+
+4. Deploy:
+
+   - **Vercel auto-deploy from `main`**
+   - ~~manual deploy according to platform workflow~~
+
+### Major Updates (quarterly / scheduled)
+
+Major upgrades (framework, runtime, or core tooling) must be done one at a time, with a dedicated PR and full testing.
+
+Examples:
+
+- Node major version
+- Next.js / React major version
+- Tailwind CSS major version
+- Package manager major version
+
+---
+
+---
+
 ## PABRIK ROTI v.0.1.0.1: Init by Prof. NOTA Inc.!
 
 🧬 Forked from [PABRIKROTI-MASTER](https://github.com/myreceiptt/pabrikroti-master/releases/tag/v.0.1.0-init)
@@ -28,19 +97,19 @@ This project is licensed under a [**Custom Limited License**](./LICENSE) by [Pro
 ### Install dependencies
 
 ```bash
-yarn
+yarn install
 ```
 
-### Check outdated dependencies
+### Review dependency updates (interactive)
 
 ```bash
-yarn outdated
+yarn up -i
 ```
 
-### Upgrade dependencies interactively
+### Upgrade dependencies
 
 ```bash
-yarn upgrade-interactive --latest
+yarn up -R
 ```
 
 ### Start development server
@@ -52,7 +121,7 @@ yarn dev
 ### Check all the code
 
 ```bash
-yarn run lint
+yarn lint
 ```
 
 ### Create a production build
@@ -72,6 +141,11 @@ yarn start
 - [Prof. NOTA Inc.](https://nota.endhonesa.com/)
 - [Prof. NOTA Console](https://prompt.endhonesa.com/)
 - [Prof. NOTA Tutor](https://baca.endhonesa.com/)
+
+## Evergreen Notes
+
+- `@types/node` is pinned to **24.x** to match the Node 24 runtime (Vercel).
+- Yarn is **4.x**; use `yarn up -i` for update review and `yarn npm audit --severity moderate` for security checks.
 
 ## Join Prof. NOTA Discord!
 
