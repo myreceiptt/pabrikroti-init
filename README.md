@@ -7,7 +7,6 @@
 ---
 
 ---
----
 
 ## Maintenance by Prof. NOTA Evergreen Standard
 
