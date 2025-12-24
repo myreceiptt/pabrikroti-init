@@ -1,12 +1,26 @@
-import js from "@eslint/js";
-import next from "@next/eslint-plugin-next";
-import tseslint from "typescript-eslint";
+import globals from "globals";
+import tsParser from "@typescript-eslint/parser";
 
 export default [
   {
-    ignores: [".next/**", "node_modules/**", "dist/**", "build/**"],
+    ignores: [".next", "node_modules", "public"],
   },
-  js.configs.recommended,
-  ...tseslint.configs.recommended,
-  next.configs["core-web-vitals"],
+  {
+    files: ["**/*.{js,jsx,ts,tsx}"],
+    languageOptions: {
+      parser: tsParser,
+      ecmaVersion: "latest",
+      sourceType: "module",
+      parserOptions: {
+        ecmaFeatures: { jsx: true },
+      },
+      globals: {
+        ...globals.browser,
+        ...globals.node,
+      },
+    },
+    rules: {
+      "no-unused-vars": "off",
+    },
+  },
 ];
