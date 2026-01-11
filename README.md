@@ -20,7 +20,7 @@ This repo is intended to stay evergreen while remaining production-safe.
 
 - Package manager:
 
-  - **Yarn** (lockfile: `yarn.lock`, repo-pinned to `yarn@4.12.0`)
+  - **Yarn** (lockfile: `yarn.lock`)
   - ~~PNPM (lockfile: `pnpm-lock.yaml`)~~
   - ~~NPM (lockfile: `package-lock.json`)~~
 
@@ -33,22 +33,22 @@ This repo is intended to stay evergreen while remaining production-safe.
 
 ### Monthly Safe Updates (recommended)
 
-1. Check what's outdated:
+1. Check what’s outdated:
 
-   - `yarn up -i`
+   - `yarn outdated`
    - ~~pnpm outdated~~
    - ~~npm outdated~~
 
 2. Upgrade safe (patch/minor) versions:
 
-   - `yarn up -R`
+   - `yarn upgrade`
    - ~~pnpm update~~
    - ~~npm update~~
    - or upgrade specific packages shown as non-major
 
 3. Verify:
 
-   - `yarn npm audit --severity moderate`
+   - `yarn audit --level moderate`
    - ~~pnpm audit~~
    - ~~npm audit~~
    - `yarn lint`
@@ -146,7 +146,7 @@ yarn start
 ## Evergreen Notes
 
 - `@types/node` is pinned to **24.x** to match the Node 24 runtime (Vercel).
-- Yarn is **4.x**; use `yarn up -i` for update review and `yarn npm audit --severity moderate` for security checks.
+- Yarn is **4.x**; use `yarn outdated` for update review and `yarn npm audit --severity moderate` for security checks.
 - Live parity check (ambyar.endhonesa.com): **All green** — no critical console errors, UX unchanged.
 
 ## Join Prof. NOTA Discord
