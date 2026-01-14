@@ -7308,7 +7308,7 @@ __metadata:
     react-dom: "npm:^19.2.3"
     react-icons: "npm:^5.5.0"
     tailwindcss: "npm:^4.1.18"
-    thirdweb: "npm:^5.116.1"
+    thirdweb: "npm:5.117.0"
     typescript: "npm:^5.9.3"
   languageName: unknown
   linkType: soft
@@ -8391,9 +8391,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"thirdweb@npm:^5.116.1":
-  version: 5.116.1
-  resolution: "thirdweb@npm:5.116.1"
+"thirdweb@npm:5.117.0":
+  version: 5.117.0
+  resolution: "thirdweb@npm:5.117.0"
   dependencies:
     "@coinbase/wallet-sdk": "npm:4.3.0"
     "@emotion/react": "npm:11.14.0"
@@ -8477,7 +8477,7 @@ __metadata:
   bin:
     thirdweb: dist/esm/cli/bin.js
     thirdweb-cli: dist/esm/cli/bin.js
-  checksum: 10c0/817c317cd8c19d1390ccd0f6d4ef00aaa1cbc36eb16750c598da48570fc4b255f1372bc540971453b67f82d032f57b2df904f50e75285e3322ff14b8e66e1290
+  checksum: 10c0/52b4592abdc2894594f1ce7a580ed87810f9d04a9db37b255c5f7c39c423546125fcb5129f372f21df0f8a13e1c5127a5ddaa359bf831bb3d4ea1199ce841e3d
   languageName: node
   linkType: hard
 
