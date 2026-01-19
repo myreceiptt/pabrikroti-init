@@ -1,7 +1,6 @@
 // /src/components/logins/ConnectButtons.tsx
 
 // External libraries
-import React from "react";
 import { FaUserLarge } from "react-icons/fa6";
 import { ConnectButton } from "thirdweb/react";
 
