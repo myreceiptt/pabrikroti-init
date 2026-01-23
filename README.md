@@ -75,6 +75,10 @@ yarn start
 
 For any questions or suggestions, join Prof. NOTA discord at [https://discord.gg/5KrsT6MbFm](https://discord.gg/5KrsT6MbFm).
 
+---
+
+---
+
 ## Maintenance by Prof. NOTA Evergreen Standard
 
 This repo is intended to stay evergreen while remaining production-safe.
